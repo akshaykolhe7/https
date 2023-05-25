@@ -5,6 +5,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="container">
   <h2>User Registration Form</h2>
   <form>
     <div class="form-group">
@@ -41,30 +42,21 @@
       <label for="dob">Date of Birth:</label>
       <select id="dobDay" name="dobDay" required>
         <option value="">Day</option>
-        <!-- Add options for days 1 to 31 -->
-        <!-- Example: -->
-        <!-- <option value="1">1</option> -->
-        <!-- <option value="2">2</option> -->
-        <!-- ... -->
-        <!-- <option value="31">31</option> -->
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="31">31</option>
       </select>
       <select id="dobMonth" name="dobMonth" required>
         <option value="">Month</option>
-        <!-- Add options for months (e.g., January, February, etc.) -->
-        <!-- Example: -->
-        <!-- <option value="1">January</option> -->
-        <!-- <option value="2">February</option> -->
-        <!-- ... -->
-        <!-- <option value="12">December</option> -->
+        <option value="1">January</option>
+        <option value="2">February</option>
+        <option value="12">December</option>
       </select>
       <select id="dobYear" name="dobYear" required>
         <option value="">Year</option>
-        <!-- Add options for years (e.g., 1990, 1991, etc.) -->
-        <!-- Example: -->
-        <!-- <option value="1990">1990</option> -->
-        <!-- <option value="1991">1991</option> -->
-        <!-- ... -->
-        <!-- <option value="2023">2023</option> -->
+        <option value="1990">1990</option>
+        <option value="1991">1991</option>
+        <option value="2023">2023</option>
       </select>
     </div>
     <div class="form-group">
@@ -86,5 +78,6 @@
       <button type="submit">Submit</button>
     </div>
   </form>
+</div>
 </body>
 </html>
